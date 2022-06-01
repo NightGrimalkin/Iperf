@@ -29,6 +29,6 @@
                     - `void successfulAuthentication(...)` po udanym uwierzytelnieniu tworzy `access_token` i zwraca go użytkownikowi i zapisuje `refresh_token` do ciasteczka. `void unsuccessfulAuthentication(...)` zwraca błąd gdy użytkownik poda złe dane.
                     - `CustomAuthorizationFilter` `void doFilterInternal(...)` najpierw sprawdza czy limit requestów nie został przekroczony, później sprawdza czy to nie ścieżka `/login` lub `/api/token/refresh` jeśli nie to żąda nagłówka uwierzytelnienia jeśli go nie ma zwraca błąd jeśli jest to próbuje odkodować token `JWT` i na jego podstawie sprawdza czy użytkownik ma dostęp do resourca 
                 - Package `utility` zawiera klase mającą funkcje do tworzenia tokenów `JWT`
-    2. ## Frontend
+2. ## Frontend
     -
                 
