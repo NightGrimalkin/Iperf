@@ -1,0 +1,201 @@
+.query-area {
+  display: flex;
+  background-color: #fafafa;
+}
+.query-area-zoom{
+  display: flex;
+  background-color: #fafafa;
+  flex-direction: column;
+}
+.query-area-disabled {
+  pointer-events: none;
+  display: flex;
+  background-color: #fafafa;
+}
+.query-area-disabled-zoom {
+  pointer-events: none;
+  display: flex;
+  background-color: #fafafa;
+  flex-direction: column;
+}
+
+.query-area div {
+  margin: 1%;
+}
+.query-area-disabled div {
+  margin: 1%;
+}
+.query-area-zoom{
+  margin: 1%;
+}
+.query-area-disabled-zoom {
+  margin: 1%;
+}
+
+.query-builder-form {
+  min-width: 16em;
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  display: flex;
+  flex-direction: column;
+  flex: 3 0 0;
+  min-height: 46em;
+  height:  44em;
+  max-height: 160em;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.query-builder-form > textarea {
+  font-size: 20px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  text-decoration: none;
+  color: #3b3b3b;
+  background-color: #fafafa;
+  resize: none;
+  min-height: 3em;
+  padding: 0 auto;
+  outline: none;
+  margin: 2%;
+  margin-bottom: 4px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.query-builder-form .send-query {
+  padding: 0px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0.5%;
+  font-weight: bold;
+  height: 3em;
+  background-color: #239a98;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+.query-builder-form h2 {
+  color: #3b3b3b;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.query-builder-form .client {
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  padding: 10px;
+  border: none;
+  background-color: #fafafa;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.query-builder-form .server {
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  border: none;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  background-color: #fafafa;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.query-builder-form .server button {
+  overflow: hidden;
+  background-color: #239a98;
+  margin: 0.2vh;
+  height: 6em;
+  font-size: 15px;
+  color: #fff;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.query-builder-form .client button {
+  overflow: hidden;
+  background-color: #239a98;
+  margin: 0.2vh;
+  height: 6em;
+  font-size: 15px;
+  color: #fff;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.query-builder-form button:hover {
+  background-color: #1a827f;
+}
+
+.query-result-div {
+  padding-top: 0px;
+  padding-left: 1em;
+  min-width: 16em;
+  display: flex;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 0;
+  flex: 4 0 0;
+  background-color: #fff;
+  overflow-y: scroll;
+  min-height: 46em;
+  height:  46em;
+  max-height: 160em;
+  
+}
+.query-result-div-loader{
+  padding-top: 0px;
+  padding-left: 1em;
+  min-width: 16em;
+  display: flex;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(36, 37, 38, 0.35);
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 0;
+  flex: 4 0 0;
+  background-color: #fff;
+  overflow-y: scroll;
+  min-height: 46em;
+  height:  46em;
+  max-height: 160em;
+  align-items: center;
+  justify-content: center;
+}
+.query-result {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #3b3b3b;
+  opacity: 0.85;
+}
+.loader{
+  min-width: 18em;
+  width: initial;
+}

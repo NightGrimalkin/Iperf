@@ -1,0 +1,122 @@
+.header {
+  background-color: #ffffff;
+}
+
+.header button {
+  color: #fff;
+  background-color: #239a98;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 1%;
+  margin: 1%;
+}
+
+.header button:hover {
+  background-color: #1a827f;
+}
+
+.header-contents {
+  min-width: 16em;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(36, 37, 38, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-contents-disabled {
+  pointer-events: none;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(36, 37, 38, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-contents > * {
+  text-align: center;
+  color: #333333;
+  margin: 4px;
+  flex-grow: 1;
+}
+.header-contents p,
+h1 {
+  color: #3b3b3b;
+}
+
+.header-contents-disabled p,
+h1 {
+  color: #3b3b3b;
+}
+.header-contents-disabled > * {
+  text-align: center;
+  color: #333333;
+  margin: 4px;
+  flex-grow: 1;
+}
+
+.form-area {
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 2%;
+  width: 40%;
+  height: 80%;
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.5);
+}
+
+.form-area .close-button {
+  display: block;
+  float: right;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-color: inherit;
+  color: #e01e37;
+  width: fit-content;
+  height: fit-content;
+  text-align: right;
+}
+
+.form-area .close-button:hover {
+  text-align: right;
+  background-color: inherit;
+  transform: scale(1.08);
+}
+
+.error-message {
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  max-width: 50%;
+  min-width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(224, 30, 55, 0.7);
+  border: 2px solid rgba(224, 30, 55);
+  color: #f3f3f3;
+}
+
+.inputs-area {
+  text-align: center;
+}
+
+.post-button {
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  width: 15%;
+}

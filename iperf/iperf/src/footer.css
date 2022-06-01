@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  box-shadow: 0 -2px 8px rgba(36, 37, 38, 0.5);
+  min-height: 8.5vh;
+  max-height: 8.5vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(85, 49, 132, 1),
+    rgba(36, 155, 152, 1)
+  );
+}
+.footer-vertical{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  box-shadow: 0 -2px 8px rgba(36, 37, 38, 0.5);
+  min-height: 5vh;
+  max-height: 5vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(85, 49, 132, 1),
+    rgba(36, 155, 152, 1)
+  );
+}
