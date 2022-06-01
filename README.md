@@ -3,5 +3,6 @@
 1. Struktura projektu
     - Backend:
         - Struktura: 
-    ![](/Dokumentacja-Obrazki/StrukturaBackend.png)
+        -![alt text](/Dokumentacja-Obrazki/StrukturaBackend.png "struktura backend") 
+    
 
